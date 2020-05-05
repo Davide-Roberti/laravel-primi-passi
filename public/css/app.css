@@ -12,5 +12,9 @@
 
 /* main */
 
+section {
+  display: flex;
+}
+
 /* footer */
 
