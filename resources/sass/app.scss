@@ -1,1 +1,12 @@
-//
+@import "partials/_variables";
+@import "partials/_mixins";
+/* reset */
+@import "partials/_reset";
+/* common */
+@import "partials/_common";
+/* header*/
+@import "partials/_header";
+/* main */
+@import "partials/_main";
+/* footer */
+@import "partials/_footer";
