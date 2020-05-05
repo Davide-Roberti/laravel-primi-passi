@@ -4,10 +4,14 @@ section {
     .card {
         width: 33.3333%;
         position: relative;
+        overflow: hidden;
+        padding: 20px;
         img {
             width: 100%;
+            display: block;
         }
         &:hover {
+            transform: scale(1.1);
             .card-link {
                 display: block;
             }

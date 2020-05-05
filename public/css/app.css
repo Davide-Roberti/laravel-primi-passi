@@ -25,10 +25,17 @@ section {
 section .card {
   width: 33.3333%;
   position: relative;
+  overflow: hidden;
+  padding: 20px;
 }
 
 section .card img {
   width: 100%;
+  display: block;
+}
+
+section .card:hover {
+  transform: scale(1.1);
 }
 
 section .card:hover .card-link {
