@@ -81,3 +81,8 @@ main section .card .card-link {
 
 /* footer */
 
+footer {
+  background-image: url(/images/background-footer.jpg?e9536648042f65c22b810770b2a6ca02);
+  padding: 60px 0;
+}
+
