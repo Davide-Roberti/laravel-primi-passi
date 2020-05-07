@@ -1,6 +1,13 @@
 header {
-    li {
-        display: inline-block;
-        padding: 10px;
+    .container {
+        display: flex;
+        justify-content: center;
+        .logo-menu {
+            text-align: center;
+            li {
+                display: inline-block;
+                padding: 10px;
+            }
+        }
     }
 }
