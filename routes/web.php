@@ -28,3 +28,10 @@ Route::get('/prodotti', function () {
 Route::get('/contatti', function () {
     return view('contacts');
 })->name('contatti');
+
+Route::get('/prodotti/{id}', function ($id) {
+    $data = [
+        'id' => $id
+    ];
+    return view('prodotto' , $data);
+})->name('prodotti.show');

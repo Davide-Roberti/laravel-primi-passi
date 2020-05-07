@@ -79,6 +79,18 @@ main section .card .card-link {
   display: none;
 }
 
+main .prodotto-singolo {
+  background-color: lightblue;
+}
+
+main .prodotto-singolo .container .immagini-titolo {
+  text-align: center;
+}
+
+main .prodotto-singolo .container .immagini-titolo img {
+  width: 70%;
+}
+
 /* footer */
 
 footer {

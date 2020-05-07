@@ -29,4 +29,15 @@ main {
             }
         }
     }
+    .prodotto-singolo {
+        background-color: lightblue;
+        .container {
+            .immagini-titolo {
+                text-align: center;
+                img {
+                    width: 70%;
+                }
+            }
+        }
+    }
 }
